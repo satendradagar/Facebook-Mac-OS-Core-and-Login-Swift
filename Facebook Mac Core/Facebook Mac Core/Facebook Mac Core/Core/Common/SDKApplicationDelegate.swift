@@ -44,7 +44,7 @@ public final class SDKApplicationDelegate {
 
    - returns: `true` if the url contained in the `launchOptions` was intended for the Facebook SDK, otherwise - `false`.
    */
-  @discardableResult
+  public 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
 
 

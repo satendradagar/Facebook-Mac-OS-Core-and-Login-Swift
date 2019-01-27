@@ -37,12 +37,32 @@
 		EA78AB621FAF5EAC008C0DC4 /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2DF6D31FA0878600996F05 /* Permission.swift */; };
 		EA78AB631FAF5EB0008C0DC4 /* PublishPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2DF6D41FA0878600996F05 /* PublishPermission.swift */; };
 		EA78AB641FAF5EB2008C0DC4 /* ReadPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2DF6D51FA0878600996F05 /* ReadPermission.swift */; };
-		EA7CE25C1FB4A9A1004F7A4A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7CE2571FB4A97D004F7A4A /* FBSDKCoreKit.framework */; };
 		EA83261B1FB0AE52006F42D3 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2DF6D91FA0878600996F05 /* UserProfile.swift */; };
 		EA83261C1FB0B144006F42D3 /* UserProfile.FetchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2DF6D71FA0878600996F05 /* UserProfile.FetchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9AA1A09421FCB6CB003C2A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA1A08B21FCB6CB003C2A9F /* FBSDKCoreKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D2697471A5DF40700143BFC;
+			remoteInfo = FBSDKCoreKit;
+		};
+		9AA1A09621FCB6CB003C2A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA1A08B21FCB6CB003C2A9F /* FBSDKCoreKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D2697521A5DF40700143BFC;
+			remoteInfo = FBSDKCoreKitTests;
+		};
+		9AA1A0C021FCC100003C2A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA1A08B21FCB6CB003C2A9F /* FBSDKCoreKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D2697461A5DF40700143BFC;
+			remoteInfo = FBSDKCoreKit;
+		};
 		EA2DF6A41FA0875300996F05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA2DF6901FA0875300996F05 /* Project object */;
@@ -50,30 +70,10 @@
 			remoteGlobalIDString = EA2DF6981FA0875300996F05;
 			remoteInfo = "Facebook Mac Core";
 		};
-		EA7CE2561FB4A97D004F7A4A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA7CE2511FB4A97D004F7A4A /* FBSDKCoreKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9D2697471A5DF40700143BFC;
-			remoteInfo = FBSDKCoreKit;
-		};
-		EA7CE2581FB4A97D004F7A4A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA7CE2511FB4A97D004F7A4A /* FBSDKCoreKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9D2697521A5DF40700143BFC;
-			remoteInfo = FBSDKCoreKitTests;
-		};
-		EA7CE25A1FB4A994004F7A4A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA7CE2511FB4A97D004F7A4A /* FBSDKCoreKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D2697461A5DF40700143BFC;
-			remoteInfo = FBSDKCoreKit;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9AA1A08B21FCB6CB003C2A9F /* FBSDKCoreKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSDKCoreKit.xcodeproj; path = ../../../FBCore/FBSDKCoreKit/FBSDKCoreKit.xcodeproj; sourceTree = "<group>"; };
 		EA23DF131FA49B70004A6A3E /* FBSDKSettingsInitializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKSettingsInitializer.h; sourceTree = "<group>"; };
 		EA23DF141FA49B70004A6A3E /* FBSDKSettingsInitializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKSettingsInitializer.m; sourceTree = "<group>"; };
 		EA2DF6991FA0875300996F05 /* Facebook_Mac_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Facebook_Mac_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +111,6 @@
 		EA2DF6D81FA0878600996F05 /* UserProfile.PictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.PictureView.swift; sourceTree = "<group>"; };
 		EA2DF6D91FA0878600996F05 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		EA78AB431FAF57C7008C0DC4 /* Facebook Mac Core Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facebook Mac Core Swift-Bridging-Header.h"; sourceTree = "<group>"; };
-		EA7CE2511FB4A97D004F7A4A /* FBSDKCoreKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSDKCoreKit.xcodeproj; path = ../../../FBSDKCoreKit/FBSDKCoreKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7CE25C1FB4A9A1004F7A4A /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +132,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AA1A08C21FCB6CB003C2A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA1A09521FCB6CB003C2A9F /* FBSDKCoreKit.framework */,
+				9AA1A09721FCB6CB003C2A9F /* FBSDKCoreKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		EA23DF061FA46564004A6A3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +151,7 @@
 		EA2DF68F1FA0875300996F05 = {
 			isa = PBXGroup;
 			children = (
-				EA7CE2511FB4A97D004F7A4A /* FBSDKCoreKit.xcodeproj */,
+				9AA1A08B21FCB6CB003C2A9F /* FBSDKCoreKit.xcodeproj */,
 				EA2DF69B1FA0875300996F05 /* Facebook Mac Core */,
 				EA2DF6A61FA0875300996F05 /* Facebook Mac CoreTests */,
 				EA2DF69A1FA0875300996F05 /* Products */,
@@ -274,15 +281,6 @@
 			path = UserProfile;
 			sourceTree = "<group>";
 		};
-		EA7CE2521FB4A97D004F7A4A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EA7CE2571FB4A97D004F7A4A /* FBSDKCoreKit.framework */,
-				EA7CE2591FB4A97D004F7A4A /* FBSDKCoreKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -310,7 +308,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA7CE25B1FB4A994004F7A4A /* PBXTargetDependency */,
+				9AA1A0C121FCC100003C2A9F /* PBXTargetDependency */,
 			);
 			name = "Facebook Mac Core";
 			productName = "Facebook Mac Core";
@@ -368,8 +366,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = EA7CE2521FB4A97D004F7A4A /* Products */;
-					ProjectRef = EA7CE2511FB4A97D004F7A4A /* FBSDKCoreKit.xcodeproj */;
+					ProductGroup = 9AA1A08C21FCB6CB003C2A9F /* Products */;
+					ProjectRef = 9AA1A08B21FCB6CB003C2A9F /* FBSDKCoreKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -381,18 +379,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		EA7CE2571FB4A97D004F7A4A /* FBSDKCoreKit.framework */ = {
+		9AA1A09521FCB6CB003C2A9F /* FBSDKCoreKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FBSDKCoreKit.framework;
-			remoteRef = EA7CE2561FB4A97D004F7A4A /* PBXContainerItemProxy */;
+			remoteRef = 9AA1A09421FCB6CB003C2A9F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EA7CE2591FB4A97D004F7A4A /* FBSDKCoreKitTests.xctest */ = {
+		9AA1A09721FCB6CB003C2A9F /* FBSDKCoreKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = FBSDKCoreKitTests.xctest;
-			remoteRef = EA7CE2581FB4A97D004F7A4A /* PBXContainerItemProxy */;
+			remoteRef = 9AA1A09621FCB6CB003C2A9F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -461,15 +459,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9AA1A0C121FCC100003C2A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit;
+			targetProxy = 9AA1A0C021FCC100003C2A9F /* PBXContainerItemProxy */;
+		};
 		EA2DF6A51FA0875300996F05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EA2DF6981FA0875300996F05 /* Facebook Mac Core */;
 			targetProxy = EA2DF6A41FA0875300996F05 /* PBXContainerItemProxy */;
-		};
-		EA7CE25B1FB4A994004F7A4A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSDKCoreKit;
-			targetProxy = EA7CE25A1FB4A994004F7A4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
