@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AABEEFA21FD9C4F00CBC984 /* FacebookEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AABEEF821FD9C4F00CBC984 /* FacebookEventManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AABEF0321FD9CF700CBC984 /* FBEventStroreManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AABEF0021FD9CF600CBC984 /* FBEventStroreManger.swift */; };
+		9AABEF0421FD9CF700CBC984 /* FBUserEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AABEF0121FD9CF600CBC984 /* FBUserEvent.swift */; };
+		9AABEF0521FD9CF700CBC984 /* FacebookEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AABEF0221FD9CF600CBC984 /* FacebookEventManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AABEF0B21FD9D1E00CBC984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AABEF0621FD9D1E00CBC984 /* Facebook Mac Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA2DF6991FA0875300996F05;
+			remoteInfo = "Facebook Mac Core";
+		};
+		9AABEF0D21FD9D1E00CBC984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AABEF0621FD9D1E00CBC984 /* Facebook Mac Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA2DF6A21FA0875300996F05;
+			remoteInfo = "Facebook Mac CoreTests";
+		};
+		9AABEF1521FD9D4800CBC984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AABEF0621FD9D1E00CBC984 /* Facebook Mac Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2DF6981FA0875300996F05;
+			remoteInfo = "Facebook Mac Core";
+		};
+		9AABEF3D21FDA64100CBC984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AABEF3921FDA64100CBC984 /* EventKitExtension.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AABEF2721FDA4B500CBC984;
+			remoteInfo = EventKitExtension;
+		};
+		9AABEF4121FDA65100CBC984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AABEF3921FDA64100CBC984 /* EventKitExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AABEF2621FDA4B500CBC984;
+			remoteInfo = EventKitExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AABEEF521FD9C4F00CBC984 /* FacebookEventManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FacebookEventManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AABEEF821FD9C4F00CBC984 /* FacebookEventManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookEventManager.h; sourceTree = "<group>"; };
+		9AABEEF921FD9C4F00CBC984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AABEF0021FD9CF600CBC984 /* FBEventStroreManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBEventStroreManger.swift; sourceTree = "<group>"; };
+		9AABEF0121FD9CF600CBC984 /* FBUserEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUserEvent.swift; sourceTree = "<group>"; };
+		9AABEF0221FD9CF600CBC984 /* FacebookEventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookEventManager.swift; sourceTree = "<group>"; };
+		9AABEF0621FD9D1E00CBC984 /* Facebook Mac Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Facebook Mac Core.xcodeproj"; path = "../../Facebook Mac Core/Facebook Mac Core.xcodeproj"; sourceTree = "<group>"; };
+		9AABEF3921FDA64100CBC984 /* EventKitExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EventKitExtension.xcodeproj; path = ../EventKitExtension/EventKitExtension.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AABEEF221FD9C4F00CBC984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AABEEEB21FD9C4F00CBC984 = {
+			isa = PBXGroup;
+			children = (
+				9AABEF3921FDA64100CBC984 /* EventKitExtension.xcodeproj */,
+				9AABEF0621FD9D1E00CBC984 /* Facebook Mac Core.xcodeproj */,
+				9AABEEF721FD9C4F00CBC984 /* FacebookEventManager */,
+				9AABEEF621FD9C4F00CBC984 /* Products */,
+				9AABEF3F21FDA64900CBC984 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AABEEF621FD9C4F00CBC984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AABEEF521FD9C4F00CBC984 /* FacebookEventManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AABEEF721FD9C4F00CBC984 /* FacebookEventManager */ = {
+			isa = PBXGroup;
+			children = (
+				9AABEF0221FD9CF600CBC984 /* FacebookEventManager.swift */,
+				9AABEF0021FD9CF600CBC984 /* FBEventStroreManger.swift */,
+				9AABEF0121FD9CF600CBC984 /* FBUserEvent.swift */,
+				9AABEEF821FD9C4F00CBC984 /* FacebookEventManager.h */,
+				9AABEEF921FD9C4F00CBC984 /* Info.plist */,
+			);
+			path = FacebookEventManager;
+			sourceTree = "<group>";
+		};
+		9AABEF0721FD9D1E00CBC984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AABEF0C21FD9D1E00CBC984 /* Facebook_Mac_Core.framework */,
+				9AABEF0E21FD9D1E00CBC984 /* Facebook Mac CoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AABEF3A21FDA64100CBC984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AABEF3E21FDA64100CBC984 /* EventKitExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AABEF3F21FDA64900CBC984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AABEEF021FD9C4F00CBC984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AABEEFA21FD9C4F00CBC984 /* FacebookEventManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AABEEF421FD9C4F00CBC984 /* FacebookEventManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AABEEFD21FD9C4F00CBC984 /* Build configuration list for PBXNativeTarget "FacebookEventManager" */;
+			buildPhases = (
+				9AABEEF021FD9C4F00CBC984 /* Headers */,
+				9AABEEF121FD9C4F00CBC984 /* Sources */,
+				9AABEEF221FD9C4F00CBC984 /* Frameworks */,
+				9AABEEF321FD9C4F00CBC984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AABEF4221FDA65100CBC984 /* PBXTargetDependency */,
+				9AABEF1621FD9D4800CBC984 /* PBXTargetDependency */,
+			);
+			name = FacebookEventManager;
+			productName = FacebookEventManager;
+			productReference = 9AABEEF521FD9C4F00CBC984 /* FacebookEventManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AABEEEC21FD9C4F00CBC984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Corebits Software solutions Pvt Ltd";
+				TargetAttributes = {
+					9AABEEF421FD9C4F00CBC984 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 9AABEEEF21FD9C4F00CBC984 /* Build configuration list for PBXProject "FacebookEventManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AABEEEB21FD9C4F00CBC984;
+			productRefGroup = 9AABEEF621FD9C4F00CBC984 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9AABEF3A21FDA64100CBC984 /* Products */;
+					ProjectRef = 9AABEF3921FDA64100CBC984 /* EventKitExtension.xcodeproj */;
+				},
+				{
+					ProductGroup = 9AABEF0721FD9D1E00CBC984 /* Products */;
+					ProjectRef = 9AABEF0621FD9D1E00CBC984 /* Facebook Mac Core.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9AABEEF421FD9C4F00CBC984 /* FacebookEventManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9AABEF0C21FD9D1E00CBC984 /* Facebook_Mac_Core.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Facebook_Mac_Core.framework;
+			remoteRef = 9AABEF0B21FD9D1E00CBC984 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AABEF0E21FD9D1E00CBC984 /* Facebook Mac CoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Facebook Mac CoreTests.xctest";
+			remoteRef = 9AABEF0D21FD9D1E00CBC984 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9AABEF3E21FDA64100CBC984 /* EventKitExtension.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EventKitExtension.framework;
+			remoteRef = 9AABEF3D21FDA64100CBC984 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AABEEF321FD9C4F00CBC984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AABEEF121FD9C4F00CBC984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AABEF0521FD9CF700CBC984 /* FacebookEventManager.swift in Sources */,
+				9AABEF0321FD9CF700CBC984 /* FBEventStroreManger.swift in Sources */,
+				9AABEF0421FD9CF700CBC984 /* FBUserEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AABEF1621FD9D4800CBC984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Facebook Mac Core";
+			targetProxy = 9AABEF1521FD9D4800CBC984 /* PBXContainerItemProxy */;
+		};
+		9AABEF4221FDA65100CBC984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EventKitExtension;
+			targetProxy = 9AABEF4121FDA65100CBC984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AABEEFB21FD9C4F00CBC984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AABEEFC21FD9C4F00CBC984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AABEEFE21FD9C4F00CBC984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FacebookEventManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.corebits.FacebookEventManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9AABEEFF21FD9C4F00CBC984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FacebookEventManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.corebits.FacebookEventManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AABEEEF21FD9C4F00CBC984 /* Build configuration list for PBXProject "FacebookEventManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AABEEFB21FD9C4F00CBC984 /* Debug */,
+				9AABEEFC21FD9C4F00CBC984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AABEEFD21FD9C4F00CBC984 /* Build configuration list for PBXNativeTarget "FacebookEventManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AABEEFE21FD9C4F00CBC984 /* Debug */,
+				9AABEEFF21FD9C4F00CBC984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AABEEEC21FD9C4F00CBC984 /* Project object */;
+}
