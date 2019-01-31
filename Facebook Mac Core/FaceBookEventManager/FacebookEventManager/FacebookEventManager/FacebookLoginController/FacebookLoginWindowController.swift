@@ -11,16 +11,16 @@ import Cocoa
 import Facebook_Mac_Core
 import Cocoa_Extensions
 
-class FacebookLoginWindowController: NSWindowController, FBTokenFacebookDelegate {
+public class FacebookLoginWindowController: NSWindowController, FBTokenFacebookDelegate {
     
     @IBOutlet var topViewController: NSViewController!
     var loginController: PhFacebook?
     
     var fbToken :AccessToken? = AccessToken.current
     
-    var  completionHandler: ((_ accessToken: AccessToken?, _ error:NSError?) -> Swift.Void)?;
+    public var  completionHandler: ((_ accessToken: AccessToken?, _ error:NSError?) -> Swift.Void)?;
     
-    func tokenResult(_ result: [AnyHashable : Any]) {
+    public func tokenResult(_ result: [AnyHashable : Any]) {
         print(result)
         if let fbApp = Bundle.main.object(forInfoDictionaryKey: "FacebookAppID") as? String{
             fbToken = AccessToken.init(appId: fbApp, authenticationToken: result["token"] as! String, userId: nil, refreshDate: Date(), expirationDate: result["expiry"] as! Date, grantedPermissions: Set.init(arrayLiteral: Permission.init(name: result["permissions"] as! String)), declinedPermissions: nil)
@@ -34,18 +34,18 @@ class FacebookLoginWindowController: NSWindowController, FBTokenFacebookDelegate
         
     }
     
-    func requestResult(_ result: [AnyHashable : Any]) {
+    public func requestResult(_ result: [AnyHashable : Any]) {
         print(result)
         
     }
     
-    func needsAuthentication(_ authenticationURL: String, forPermissions permissions: String) -> Bool {
+    public func needsAuthentication(_ authenticationURL: String, forPermissions permissions: String) -> Bool {
         print(permissions)
         
         return true
     }
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
             super.awakeFromNib()
 //        NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
         if let fbApp = Bundle.main.object(forInfoDictionaryKey: "FacebookAppID") as? String{
@@ -66,7 +66,7 @@ class FacebookLoginWindowController: NSWindowController, FBTokenFacebookDelegate
     
  
 
-    func showLoginSheet(fromWindow:NSWindow)  {
+    public func showLoginSheet(fromWindow:NSWindow)  {
         AccessToken.refreshCurrentToken { (token, error) in
             print("refreshed token:\(String(describing: token)), \nError:\(String(describing: error))")
             print("Expiry:\(String(describing: token?.expirationDate))")
